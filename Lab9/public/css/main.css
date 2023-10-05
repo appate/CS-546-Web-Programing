@@ -1,0 +1,103 @@
+/*
+You will style your page using at least 5 CSS selectors for general CSS styling. You will place the CSS in its own file. 
+*/
+html 
+{
+  font-family: "Times New Roman", Times, serif;
+}
+header 
+{
+    color: black;
+    text-align: center;
+    border-style: double;
+    background-color: #8693a0;
+
+}
+form 
+{
+    margin-top: 20px;
+}
+label 
+{
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 100;
+}
+textarea
+{
+    margin-top:10px;
+    width: 98%;
+    height: 100px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+button[type="submit"] 
+{
+    display: block;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin-top: 10px;
+    padding: 10px 15px;
+    width: 100%;
+    background-color: #8693a0;
+    border-style: double;
+    cursor: pointer;
+}
+button[type="submit"]:hover
+{
+    background-color: #577898;
+    
+}
+dl 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+dt 
+{
+
+    font-weight: bold;
+}
+dt, dd 
+{
+    flex-basis: 50%;
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+footer 
+{
+    color:black;
+    margin-top: 50px;
+    height: 45px;
+    text-align: center;
+    font-style: italic;
+    border-style:double;
+    background-color: #8693a0;
+
+}
+.container 
+{
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 30px;
+}
+#results 
+{
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid #0d0d0d;
+}
+#error 
+{
+    margin-top: 20px;
+    font-weight: bold;
+    border: 1px solid red;
+    color: red;
+}
+  
+  

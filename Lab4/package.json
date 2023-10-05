@@ -1,0 +1,17 @@
+{
+  "name": "cs-546-lab-4",
+  "version": "1.0.0",
+  "description": "This is lab4",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Aishwarya Patel 20009009",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^5.1.0"
+  },
+  "devDependencies": {}
+}

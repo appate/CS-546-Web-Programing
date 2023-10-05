@@ -1,0 +1,87 @@
+html{
+  font-family:'Times New Roman', Times, serif;
+  
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    max-width: 400px;
+  }
+  h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+  }
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width:auto;
+  }
+  
+  select option:first-child {
+    color: #ccc;
+    width:auto;
+  }
+  
+  button[type="submit"] {
+    background-color: #f96d00;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #c24d2c;
+  }
+  .box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+    max-width: 400px;
+    padding: 20px;
+}
+.box1 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+    max-width: 400px;
+    padding: 20px;
+}
+
+#error 
+{
+    margin-top: 10px;
+    font-weight: bold;
+    border: 1px solid red;
+    color: red;
+    margin-bottom: 10pt;
+}
+  a {
+    color: #27296d;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color :#f70776;
+  }
+  
